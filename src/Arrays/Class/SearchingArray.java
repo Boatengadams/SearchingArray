@@ -1,3 +1,4 @@
+// Question: How can binarySearch find values in a sorted array?
 package Arrays.Class;
 //Using binarySearch()
 //The array should be sorted in increasing order
@@ -10,7 +11,7 @@ package Arrays.Class;
 import java.util.Arrays;
 
 public class SearchingArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 //        int[] numbers = {5,4,3,2,1,0,-1,6};
         int[] numbers = {-5,-1,-6,5,6};
         Arrays.sort(numbers);
